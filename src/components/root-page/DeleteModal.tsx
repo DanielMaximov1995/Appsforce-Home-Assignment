@@ -1,7 +1,7 @@
 'use client'
 
 import { User } from "@/services/fetch-users";
-import { Dialog, DialogActions, DialogContent, Button, TextField, DialogTitle, Box, Typography } from "@mui/material"
+import { Dialog, DialogActions, DialogContent, Button, DialogTitle, Typography } from "@mui/material"
 import { motion } from 'framer-motion'
 
 interface DeleteModalProps {
