@@ -1,12 +1,10 @@
 'use client'
 
-import { fetchUsers, User } from "@/services/fetch-users"
+import { User } from "@/services/fetch-users"
 import { Alert, Box, CircularProgress, Grid, List, Typography } from "@mui/material"
-import { useQuery } from "react-query"
 import { motion } from 'framer-motion'
 import UserCard from '@/components/root-page/UserCard'
 import UserListItem from '@/components/root-page/UserListItem'
-import { useEffect, useState } from "react"
 
 interface UsersListProps {
     searchTerm: string
